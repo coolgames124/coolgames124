@@ -1,11 +1,11 @@
 @echo off
 setlocal enabledelayedexpansion
 
-REM Generate a random number between 1 and 100
-set /a target=%random% %% 100 + 1
+REM Generate a random number between 1 and 200
+set /a target=%random% %% 200 + 1
 
 echo Welcome to the Number Guessing Game!
-echo I'm thinking of a number between 1 and 100.
+echo I'm thinking of a number between 1 and 200.
 echo Can you guess what it is?
 
 set /a attempts=0
